@@ -1,0 +1,5 @@
+Sin Tareas      Por Tareas
+ 2.21s		 3.18s
+ 1.98s		 3.41s
+ 1.94s		 3.28s
+ 1.91s		 3.25s	

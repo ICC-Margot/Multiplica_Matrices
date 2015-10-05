@@ -20,7 +20,7 @@ RV SPARK_05
 RV MAX_TASK_ENTRIES=1
 RV MAX_TASKS=1+
 
-U main%b		main.adb		c5261fce NE OO SU
+U main%b		main.adb		0c33c441 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -51,7 +51,7 @@ D interfac.ads		20150518132148 6033a23f interfaces%s
 D i-c.ads		20150518132148 5421119b interfaces.c%s
 D i-cstrin.ads		20150518132148 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20150518132148 e53d8b8e interfaces.c_streams%s
-D main.adb		20151002023422 0b0063be main%b
+D main.adb		20151005034440 c215b831 main%b
 D system.ads		20150518132150 f4ce8c3a system%s
 D s-atacco.ads		20150518132148 4c36d12f system.address_to_access_conversions%s
 D s-crtl.ads		20150518132148 0ebbdb71 system.crtl%s
@@ -86,45 +86,45 @@ X 4 a-inteio.ads
 18K13*Integer_Text_IO[10|46] 16|2w10 2r35
 X 9 a-textio.ads
 49K13*Text_IO 471e16 16|1w10 1r27
-263U14*Put_Line 16|58s7 63s8 70s4
+263U14*Put_Line 16|66s7 71s8 78s4
 X 10 a-tiinio.ads
-66U14*Put 16|61s10[4|18]
+66U14*Put 16|69s11[4|18]
 X 16 main.adb
-3U11*Main 3b11 75l5 75t9
-4a4 MatrizA(integer) 25m10 39r21
-5a4 MatrizB(integer) 26m10 39r34
-6a4 MatrizC(integer) 54m10 61r14
-7i4 m{integer} 37m13 39m17 39r47 41r37
-7i6 i{integer}
-7i8 j{integer}
-7i10 k{integer}
-11T14 Multiplica 13l8 13e18 31b14 45l8 45t18 47r34
-12Y13 iniciar 12>22 12>29 34b14 44l11 44t18 72s25
-12i22 inicio{integer} 35r19
-12i29 fin{integer} 35r27 36r23 38r25
-15t9 MatrizF 41r16 49b14 65l8 65t15
-16Y13 posicion 16>23 16>25 16>27 41s24 53b15 55l12 55t20
-16i23 e{integer} 54r18
-16i25 s{integer} 54r20
-16i27 val{integer} 54r24
-19t9 LlenaMatriz 21b14 29l8 29t19
-23i10 i{integer} 25r19 26r19
-24i11 j{integer} 25r21 26r21
-32i7 sumaR{integer}
-34i23 inicio{integer}
-34i40 fin{integer}
-35i14 k{integer} 39r29 41r33
-36i15 i{integer} 39r44 41r35
-38i17 j{integer} 39r31 39r42
-47a4 SubMatrices(11T14) 72r10
-50i7 resultado{integer}
-52i11 i{integer}
-53i25 e{integer}
-53i27 s{integer}
-53i30 val{integer}
-59i11 i{integer} 61r22
-60i12 j{integer} 61r24
-71i8 i{integer} 72r22 72r33
+3U11*Main 3b11 80l5 80t9
+4i4 fin{integer} 5r24 5r31 6r24 6r31 7r24 7r31 27r23 29r25 38r28 42r18 43r19
+. 49r19 58r19 59r22 67r19 68r20
+5a4 MatrizA(integer) 30r21 44m10
+6a4 MatrizB(integer) 30r34 45m10
+7a4 MatrizC(integer) 61m12 69r15
+8i4 m{integer} 28m13 30m17 30r47 32r37
+8i6 i{integer}
+8i8 j{integer}
+8i10 k{integer} 25m10 30r29 32r33
+10T14 Multiplica 12l8 12e18 21b14 36l8 36t18 38r36
+11Y13 iniciar 11>22 24b14 35l11 35t18 50s25
+11i22 inicio{integer} 25r13
+14t9 MatrizF 32r16 55b14 73l8 73t15
+15Y13 posicion 15>23 15>25 15>27 32s24 60b18 62l15 62t23
+15i23 e{integer} 61r20
+15i25 s{integer} 61r22
+15i27 val{integer} 61r26
+18t9 LlenaMatriz 40b15 52l8 52t19
+22i7 sumaR{integer}
+24i23 inicio{integer}
+27i15 i{integer} 30r44 32r35
+29i17 j{integer} 30r31 30r42
+38a4 SubMatrices(10T14) 50r10
+42i10 i{integer} 44r19 45r19
+43i11 j{integer} 44r21 45r21
+49i11 i{integer} 50r22 50r33
+56i7 resultado{integer}
+58i11 i{integer}
+59i14 j{integer}
+60i28 e{integer}
+60i30 s{integer}
+60i33 val{integer}
+67i11 i{integer} 69r23
+68i12 j{integer} 69r25
 X 30 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
