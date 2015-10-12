@@ -45,7 +45,7 @@ procedure Main is
       accept rango (inicio : in Integer; fin : in Integer) do
          for i in inicio..fin loop
             for j in 1..tam loop
-               matC(i,j):=0;
+               matC(j,i):=0;
                for k in 1 ..tam loop
                   matC(j,i):=matC(j,i)+(matA(j,k)*matB(k,i));
                end loop;
