@@ -1,5 +1,5 @@
-Sin Tareas 1      Por Tareas 1     Sin Tareas 2      Por Tareas 2
-  2.21s	       	   3.18s	    00.39s		00.30s 
+Sin Tareas  Tareas 1     Tareas 3      Tareas 4
+  2.21s	     3.18s	    00.39s		00.30s 
   1.98s		   3.41s	    00.36s		00.36s
   1.94s		   3.28s	    00.34s		00.34s
   1.91s		   3.25s	    00.35s		00.35s
